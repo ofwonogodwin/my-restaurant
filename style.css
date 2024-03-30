@@ -1,0 +1,69 @@
+body{
+background-image:url("homepg.jpg");
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+h1{
+    background-color: none;
+    border: rgb(16, 71, 71);
+    color:chartreuse;
+    font-size: xx-large;
+}
+h2{
+    background-color: none;
+    color: chartreuse;
+    font-size: xx-large;
+}
+h3{
+    color: rgb(245, 169, 193);
+    font-size: larger;
+}
+p{
+    color: skyblue;
+    font-size: larger;
+}
+
+div{
+    color: rgb(149, 179, 179);
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:chartreuse;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size:x-large;}
+.navbar a:hover {
+    color: #3d0c99;
+}
+footer{
+    color: rgb(184, 235, 65);
+
+}
+span{
+    color: aliceblue;
+}
+select{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+form{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: skyblue;
+}
+table{
+    font-size: larger;
+    color: skyblue;
+}
